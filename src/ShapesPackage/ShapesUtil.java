@@ -8,7 +8,7 @@ public class ShapesUtil
 {
    private ShapesUtil()
    {
-      //constructor
+      //private constructor to prevent creating instance of object
    }
 
    public static double cubeVolume(double cubeWidth)
