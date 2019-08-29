@@ -43,6 +43,8 @@ public class JUnitTest
    public void cubeVolumeOf5(){
       Double expectedValue = 125.0;
       Double actualValue = cube.getVolume(5);
+
+      assertEquals(expectedValue,actualValue);
    }
 
    @Test
